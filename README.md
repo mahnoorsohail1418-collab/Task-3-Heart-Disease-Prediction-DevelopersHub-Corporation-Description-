@@ -17,45 +17,44 @@ Samples: 303 patient records
 Features: 14 features including:                                                                                                                                                                                    
 Age                                                                                                                                                                                                                 
 Sex                                                                                                                                                                                                                 
-Chest Pain Type(cp)
-Resting Blood Pressure (trestbps)
-Serum Cholesterol (chol)
-Fasting Blood Sugar (fbs)
-Resting ECG (restecg)
-Max Heart Rate (thalach)
-Exercise Induced Angina (exang)
-ST Depression (oldpeak)
-Slope of ST (slope)
-Number of Major Vessels (ca)
-Thalassemia (thal)
+Chest Pain Type(cp)                                                                                                                                                                                                
+Resting Blood Pressure (trestbps)                                                                                                                                                                                   
+Serum Cholesterol (chol)                                                                                                                                                                                            
+Fasting Blood Sugar (fbs)                                                                                                                                                                                           
+Resting ECG (restecg)                                                                                                                                                                                               
+Max Heart Rate (thalach)                                                                                                                                                                                            Exercise Induced Angina (exang)                                                                                                                                                                                     
+ST Depression (oldpeak)                                                                                                                                                                                             
+Slope of ST (slope)                                                                                                                                                                                                 
+Number of Major Vessels (ca)                                                                                                                                                                                       
+Thalassemia (thal)                                                                                                                                                                                                  
 
-Target: Heart disease presence (1 = disease, 0 = no disease)
+Target: Heart disease presence (1 = disease, 0 = no disease)                                                                                                                                                        
 
-Models Applied
-Logistic Regression for binary classification.
+Models Applied                                                                                                                                                                                                      
+Logistic Regression for binary classification.                             
 
-Model evaluation using:
-Accuracy
-Confusion Matrix
-ROC Curve and AUC
+Model evaluation using:                                                                                                                                                                                             
+Accuracy                                                                                                                                                                                                            
+Confusion Matrix                                                                                                                                                                                                    
+ROC Curve and AUC                                                                                                                                                                                                   
 
-Feature importance analysis to identify which health indicators contribute most to predictions
+Feature importance analysis to identify which health indicators contribute most to predictions                                                                                                                      
 
-Tools and Methods Used
-Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+Tools and Methods Used                                                                                                                                                                                              
+Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn                                                                                                                                                               
 
-EDA Techniques:
-Histograms: To analyze distributions
-Countplots: To check target balance
+EDA Techniques:                                                                                                                                                                                                     
+Histograms: To analyze distributions                                                                                                                                                                                
+Countplots: To check target balance                                                                                                                                                                                
 
-Data Cleaning:
-Handling missing values (? replaced with median)
-Conversion of all columns to numeric
-Dropping empty or NaN rows
+Data Cleaning:                                                                                                                                                                                                      
+Handling missing values (? replaced with median)                                                                                                                                                                    
+Conversion of all columns to numeric                                                                                                                                                                                
+Dropping empty or NaN rows                                                                                                                                                                                          
 
-Modeling:
+Modeling:                                                                                                                                                                                                           
 Logistic Regression with feature scaling                                                                                                                                                                                       
-Steps Performed
+Steps Performed                                                                                                                                                                                                     
 Import Libraries:
 Used pandas, numpy, matplotlib, seaborn, and scikit-learn for analysis, visualization, and modeling.
 
