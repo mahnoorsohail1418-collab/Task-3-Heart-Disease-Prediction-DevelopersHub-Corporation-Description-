@@ -4,18 +4,17 @@ Task Objective
 The main objective of this task is to predict whether a person is at risk of heart disease based on health-related features. 
 This is a critical task in healthcare analytics, where early detection can save lives.
 
-Specifically, this task focuses on:                                                                                                                                                                                 
-Cleaning and preprocessing the dataset to handle missing values and ensure numeric consistency.
-Performing Exploratory Data Analysis (EDA) to identify trends, distributions, and correlations between features.
-Training a classification model (Logistic Regression) to predict heart disease risk.
-Evaluating the model using accuracy, confusion matrix, and ROC-AUC score.
-Identifying the most important features affecting heart disease prediction.
+Specifically, this task focuses on:                                                                                                                                                                                1.Cleaning and preprocessing the dataset to handle missing values and ensure numeric consistency.
+2.Performing Exploratory Data Analysis (EDA) to identify trends, distributions, and correlations between features.
+3.Training a classification model (Logistic Regression) to predict heart disease risk.
+4.Evaluating the model using accuracy, confusion matrix, and ROC-AUC score.
+5.Identifying the most important features affecting heart disease prediction.
 
-Dataset Used                                                                                                                                                                                                        
-Name: Heart Disease UCI Dataset
-Source: Kaggle Heart Disease UCI Dataset
-Samples: 303 patient records
-Features: 14 features including:
+Dataset Used                                                                                                                                                                                                       
+Name: Heart Disease UCI Dataset                                                                                                                                                                                     
+Source: Kaggle Heart Disease UCI Dataset                                                                                                                                                                            
+Samples: 303 patient records                                                                                                                                                                                        
+Features: 14 features including:                                                                                                                                                                                    
 Age
 Sex
 Chest Pain Type (cp)
@@ -31,7 +30,7 @@ Number of Major Vessels (ca)
 Thalassemia (thal)
 Target: Heart disease presence (1 = disease, 0 = no disease)
 
-Models Applied
+Models Applied 
 Logistic Regression for binary classification.
 
 Model evaluation using:
