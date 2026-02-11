@@ -1,6 +1,5 @@
 Task 3: Heart Disease Prediction - DevelopersHub Corporation
 Task Objective
-
 The main objective of this task is to predict whether a person is at risk of heart disease based on health-related features. This is a critical task in healthcare analytics, where early detection can save lives.
 
 Specifically, this task focuses on:
