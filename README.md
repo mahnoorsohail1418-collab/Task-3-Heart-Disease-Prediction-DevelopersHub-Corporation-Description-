@@ -1,17 +1,17 @@
 Task 3: Heart Disease Prediction - DevelopersHub Corporation
 
-Task Objective
+Task Objective                                                                                                                                                                                                      
 The main objective of this task is to predict whether a person is at risk of heart disease based on health-related features. 
 This is a critical task in healthcare analytics, where early detection can save lives.
 
-Specifically, this task focuses on:
+Specifically, this task focuses on:                                                                                                                                                                                 
 Cleaning and preprocessing the dataset to handle missing values and ensure numeric consistency.
 Performing Exploratory Data Analysis (EDA) to identify trends, distributions, and correlations between features.
 Training a classification model (Logistic Regression) to predict heart disease risk.
 Evaluating the model using accuracy, confusion matrix, and ROC-AUC score.
 Identifying the most important features affecting heart disease prediction.
 
-Dataset Used
+Dataset Used                                                                                                                                                                                                        
 Name: Heart Disease UCI Dataset
 Source: Kaggle Heart Disease UCI Dataset
 Samples: 303 patient records
@@ -87,17 +87,16 @@ Feature Importance
 Extracted coefficients from Logistic Regression
 Ranked features by importance
 
-Key Results and Findings
-Accuracy: Typically around 80–85% for Logistic Regression on this dataset
+Key Results and Findings                                                                                                                                                                                            Accuracy: Typically around 80–85% for Logistic Regression on this dataset
 ROC-AUC: ~0.85–0.90, showing strong model discrimination
 
-Important Features:
+Important Features:                                                                                                                                                                                                 
 Chest pain type (cp)
 Max heart rate (thalach)
 ST depression (oldpeak)
 Exercise induced angina (exang)
 Number of major vessels (ca)
 
-Insights:
+Insights:                                                                                                                                                                                                           
 Chest pain type and heart rate are critical indicators of heart disease.
 ST depression and exercise-induced angina are strong predictors of risk.
