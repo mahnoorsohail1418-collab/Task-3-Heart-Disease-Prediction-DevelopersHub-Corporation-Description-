@@ -54,52 +54,50 @@ Dropping empty or NaN rows
 
 Modeling:                                                                                                                                                                                                           
 Logistic Regression with feature scaling                                                                                                                                                                                       
-Steps Performed                                                                                                                                                                                                     
-Import Libraries:
+Steps Performed                                                                                                                                                                                                     Import Libraries:
 Used pandas, numpy, matplotlib, seaborn, and scikit-learn for analysis, visualization, and modeling.
 
 Load Dataset:
 Loaded the dataset into a pandas DataFrame.
-
 Displayed the first few rows using .head().
 
-Data Cleaning:
+Data Cleaning:                                                                                                                                                                                                      
 Replaced ? with NaN
 Converted columns to numeric
 Filled missing values with median
 Dropped fully empty or remaining NaN rows
 
-EDA and Visualization:
+EDA and Visualization:                                                                                                                                                                                              
 Countplot of target variable to see distribution of heart disease
 Correlation heatmap to identify important relationships
 
-Model Preparation:
+Model Preparation:                                                                                                                                                                                                  
 Separated features (X) and target (y)
 Train-test split (80/20)
 Feature scaling with StandardScaler
 
-Model Training:
+Model Training:                                                                                                                                                                                                    
 Trained Logistic Regression classifier
 Predicted probabilities and class labels
 
-Evaluation:
+Evaluation:                                                                                                                                                                                                        
 Accuracy
 Confusion matrix (heatmap)
 ROC curve and AUC score
 
-Feature Importance:
+Feature Importance:                                                                                                                                                                                                 
 Extracted coefficients from Logistic Regression
 Ranked features by importance
 
-Key Results and Findings
-Accuracy: Typically around 80–85% for Logistic Regression on this dataset
-ROC-AUC: ~0.85–0.90, showing strong model discrimination
-Important Features:
-Chest pain type (cp)
-Max heart rate (thalach)
-ST depression (oldpeak)
-Exercise induced angina (exang)
-Number of major vessels (ca)
-Insights:
+Key Results and Findings                                                                                                                                                                                            
+Accuracy: Typically around 80–85% for Logistic Regression on this dataset                                                                                                                                           
+ROC-AUC: ~0.85–0.90, showing strong model discrimination                                                                                                                                                            
+Important Features:                                                                                                                                                                                                 
+Chest pain type (cp)                                                                                                                                                                                                
+Max heart rate (thalach)                                                                                                                                                                                            
+ST depression (oldpeak)                                                                                                                                                                                             
+Exercise induced angina (exang)                                                                                                                                                                                     
+Number of major vessels (ca)                                                                                                                                                                                         
+Insights:                                                                                                                                                                                                           
 Chest pain type and heart rate are critical indicators of heart disease.
 ST depression and exercise-induced angina are strong predictors of risk.
