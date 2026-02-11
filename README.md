@@ -11,13 +11,13 @@ Evaluating the model using accuracy, confusion matrix, and ROC-AUC score.
 Identifying the most important features affecting heart disease prediction.                                                                                                                                         
 
 Dataset Used
-Name: Heart Disease UCI Dataset
-Source: Kaggle Heart Disease UCI Dataset
-Samples: 303 patient records
-Features: 14 features including:
-Age
-Sex
-Chest Pain Type (cp)
+Name: Heart Disease UCI Dataset                                                                                                                                                                                     
+Source: Kaggle Heart Disease UCI Dataset                                                                                                                                                                            
+Samples: 303 patient records                                                                                                                                                                                        
+Features: 14 features including:                                                                                                                                                                                    
+Age                                                                                                                                                                                                                 
+Sex                                                                                                                                                                                                                 
+Chest Pain Type(cp)
 Resting Blood Pressure (trestbps)
 Serum Cholesterol (chol)
 Fasting Blood Sugar (fbs)
