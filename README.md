@@ -4,17 +4,11 @@ Task Objective
 The main objective of this task is to predict whether a person is at risk of heart disease based on health-related features. 
 This is a critical task in healthcare analytics, where early detection can save lives.
 
-Specifically, this task focuses on:
-
-Cleaning and preprocessing the dataset to handle missing values and ensure numeric consistency.
-
-Performing Exploratory Data Analysis (EDA) to identify trends, distributions, and correlations between features.
-
-Training a classification model (Logistic Regression) to predict heart disease risk.
-
-Evaluating the model using accuracy, confusion matrix, and ROC-AUC score.
-
-Identifying the most important features affecting heart disease prediction.
+Specifically, this task focuses on:                                                                                                                                                                                 
+Cleaning and preprocessing the dataset to handle missing values and ensure numeric consistency.                                                                                                                    Performing Exploratory Data Analysis (EDA) to identify trends, distributions, and correlations between features.                                                                                                    
+Training a classification model (Logistic Regression) to predict heart disease risk.                                                                                                                                
+Evaluating the model using accuracy, confusion matrix, and ROC-AUC score.                                                                                                                                           
+Identifying the most important features affecting heart disease prediction.                                                                                                                                         
 
 Dataset Used
 
